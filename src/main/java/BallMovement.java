@@ -26,7 +26,6 @@ public class BallMovement extends PApplet {
     @Override
     public void setup() {
         stroke(255);
-
         for(int i=1; i<5; i++)
         {
             BallMovement.circleX[i-1] = BallMovement.x;
